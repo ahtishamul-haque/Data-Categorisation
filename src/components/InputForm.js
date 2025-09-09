@@ -1,37 +1,36 @@
 import React, { useState } from "react";
+// path from components folder to src
+import categoryMap from "../categories.json"; 
 
 function InputForm({ onAdd }) {
-  const [category, setCategory] = useState("");
   const [item, setItem] = useState("");
   const [price, setPrice] = useState("");
 
-  const handleSubmit = () => {
-    if (category && item && price) {
-      onAdd(category, price);
-      setItem("");
-      setPrice("");
-      setCategory("");
+  // detect category by searching keywords (first match wins)
+  const detectCategory = (itemName) => {
+    if (!itemName) return "Other";
+    const lower = itemName.toLowerCase().trim();
+
+    for (const [category, keywords] of Object.entries(categoryMap)) {
+      if (!Array.isArray(keywords)) continue;
+      // check if any keyword appears in the item string
+      if (keywords.some((kw) => kw && lower.includes(kw.toLowerCase()))) {
+        return category;
+      }
     }
+    return "Other";
+  };
+
+  const handleSubmit = () => {
+    if (!item || !price) return;
+    const category = detectCategory(item);
+    onAdd(category, price);
+    setItem("");
+    setPrice("");
   };
 
   return (
     <div className="input-section">
-      <select value={category} onChange={(e) => setCategory(e.target.value)}>
-        <option value="" disabled>
-          Select Category
-        </option>
-        <option value="Fruit">Fruit</option>
-        <option value="Groceries">Groceries</option>
-        <option value="Travel">Travel</option>
-        <option value="Electronics">Electronics</option>
-        <option value="Clothing">Clothing</option>
-        <option value="Entertainment">Entertainment</option>
-        <option value="Bills">Bills</option>
-        <option value="Health">Health</option>
-        <option value="Education">Education</option>
-        <option value="Other">Other</option>
-      </select>
-
       <input
         type="text"
         placeholder="Enter item (e.g., Apple)"
@@ -41,12 +40,12 @@ function InputForm({ onAdd }) {
 
       <input
         type="number"
-        placeholder="Enter price"
+        placeholder="Enter price (e.g., 199)"
         value={price}
         onChange={(e) => setPrice(e.target.value)}
       />
 
-      <button onClick={handleSubmit} disabled={!category || !item || !price}>
+      <button onClick={handleSubmit} disabled={!item || !price}>
         Add
       </button>
     </div>
