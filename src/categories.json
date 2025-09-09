@@ -1,0 +1,166 @@
+{
+  "Fruit": [
+    "apple", "banana", "orange", "mango", "grape", "pineapple", "watermelon", "kiwi", "papaya", "strawberry",
+    "blueberry", "pomegranate", "lychee", "cherry", "peach", "pear", "plum", "apricot", "fig", "guava",
+    "melon", "cantaloupe", "nectarine", "blackberry", "raspberry", "passionfruit", "dragonfruit", "jackfruit",
+    "tangerine", "coconut", "date", "grapefruit", "kumquat", "persimmon", "quince", "cranberry", "mulberry",
+    "elderberry", "gooseberry", "longan", "soursop", "starfruit", "pomelo", "breadfruit", "durian", "currant",
+    "olive", "lime", "lemon", "litchi"
+  ],
+  "Groceries": [
+    "rice", "wheat", "flour", "sugar", "salt", "milk", "bread", "butter", "cheese", "oil",
+    "eggs", "yogurt", "honey", "pasta", "noodles", "cereal", "corn", "beans", "lentils", "dal",
+    "spices", "pepper", "turmeric", "ginger", "garlic", "onion", "tomato", "potato", "carrot",
+    "cabbage", "spinach", "lettuce", "cucumber", "capsicum", "chili", "vinegar", "soy sauce",
+    "mayonnaise", "ketchup", "jam", "peanut butter", "tea", "coffee", "biscuits", "snacks",
+    "chocolate", "soup", "cream", "paneer", "baking powder", "yeast"
+  ],
+  "Electronics": [
+    "laptop", "desktop", "phone", "tablet", "smartwatch", "earbuds", "headphones", "camera",
+    "printer", "monitor", "keyboard", "mouse", "charger", "powerbank", "speaker", "tv", "projector",
+    "router", "modem", "hard drive", "ssd", "usb", "hdmi", "adapter", "microphone", "webcam",
+    "flash drive", "drone", "game console", "joystick", "graphics card", "motherboard", "ram",
+    "processor", "cooler", "fan", "scanner", "stylus", "projector screen", "tripod", "gimbal",
+    "headset", "smart bulb", "switch", "router cable", "keyboard cover", "tablet cover", "laptop bag", "screen protector", "hdmi cable", "usb cable"
+  ],
+  "Clothing": [
+    "shirt", "tshirt", "jeans", "trousers", "jacket", "coat", "sweater", "hoodie", "skirt", "dress",
+    "shorts", "socks", "shoes", "sandals", "boots", "cap", "hat", "scarf", "gloves", "belt",
+    "tie", "suit", "blazer", "pajamas", "lingerie", "swimsuit", "tracksuit", "leggings", "cardigan",
+    "vest", "blouse", "kurta", "salwar", "saree", "dupatta", "shawl", "polo shirt", "tank top",
+    "sneakers", "flip flops", "slippers", "watch", "bracelet", "necklace", "earrings", "ring", "anklet", "hairband", "capri", "raincoat"
+  ],
+  "Travel": [
+    "bus", "train", "flight", "cab", "taxi", "uber", "ola", "metro", "ticket", "hotel",
+    "hostel", "resort", "cruise", "ferry", "car rental", "bike rental", "luggage", "passport",
+    "visa", "insurance", "tour guide", "map", "backpack", "suitcase", "tent", "sleeping bag",
+    "camping mat", "snacks", "water bottle", "sunglasses", "camera", "tripod", "binoculars",
+    "compass", "hat", "sunblock", "jacket", "hiking boots", "flip flops", "swimwear", "towel",
+    "charger", "powerbank", "adapter", "raincoat", "first aid kit", "ticket app", "guidebook", "itinerary", "souvenir", "headlamp"
+  ],
+  "Entertainment": [
+    "movie", "concert", "theater", "netflix", "game", "subscription", "music", "album", "ticket",
+    "festival", "party", "karaoke", "board game", "puzzle", "video game", "console", "streaming",
+    "tv show", "dvd", "blu-ray", "comic", "novel", "magazine", "newspaper", "painting", "sculpture",
+    "museum", "exhibition", "park", "ride", "club", "bar", "pub", "arcade", "pool", "bowling",
+    "dance class", "singing class", "yoga class", "gym", "sports ticket", "match", "concert ticket",
+    "festival ticket", "photography", "instrument", "painting kit", "craft kit", "model kit", "lego", "card game"
+  ],
+  "Bills": [
+    "electricity", "water", "internet", "gas", "phone", "rent", "maintenance", "insurance",
+    "loan", "tax", "subscription", "cable", "tv", "parking", "garbage", "sewage", "heating",
+    "cooling", "security", "property tax", "school fee", "college fee", "library fee", "parking fee",
+    "club fee", "membership", "license", "permit", "fines", "penalty", "service charge", "delivery fee",
+    "utility", "cleaning", "gardening", "pet fee", "gym membership", "streaming service", "app subscription",
+    "software license", "cloud service", "vpn", "domain", "hosting", "maintenance fee", "internet fee", "phone fee",
+    "electricity bill", "water bill", "gas bill", "tv bill"
+  ],
+  "Health": [
+    "medicine", "doctor", "pharmacy", "consultation", "hospital", "checkup", "vaccine", "syringe",
+    "bandage", "ointment", "thermometer", "stethoscope", "bp monitor", "glucose meter", "inhaler",
+    "mask", "sanitizer", "soap", "vitamin", "supplement", "protein", "energy bar", "first aid kit",
+    "surgery", "x-ray", "mri", "ultrasound", "scan", "blood test", "eye drops", "contact lens",
+    "glasses", "hearing aid", "wheelchair", "crutches", "brace", "splint", "ointment", "painkiller",
+    "antibiotic", "antiseptic", "ointment", "bandage roll", "therapeutic oil", "massage oil",
+    "essential oil", "bath salts", "shampoo", "toothpaste", "mouthwash"
+  ],
+  "Education": [
+    "book", "notebook", "pen", "pencil", "eraser", "sharpener", "ruler", "calculator",
+    "dictionary", "thesaurus", "textbook", "notepad", "marker", "highlighter", "glue",
+    "scissors", "stapler", "paper", "binder", "folder", "whiteboard", "chalk", "projector",
+    "laptop", "tablet", "backpack", "stationery kit", "sticky notes", "crayons", "colored pencils",
+    "paint", "brush", "canvas", "journal", "planner", "calendar", "magazine", "library card",
+    "exam paper", "certificate", "diploma", "tuition fee", "course", "workshop", "online class",
+    "quiz", "assignment", "lecture notes", "research paper", "study guide"
+  ],
+  "Home": [
+    "sofa", "table", "chair", "bed", "mattress", "pillow", "blanket", "curtain", "rug", "carpet",
+    "lamp", "fan", "heater", "ac", "heater", "cabinet", "shelf", "mirror", "clock", "painting",
+    "vase", "decor", "plant", "flower pot", "bookshelf", "wardrobe", "drawer", "desk", "stool",
+    "bench", "shoe rack", "coat rack", "cushion", "bedding", "linen", "towel", "mat", "kitchenware",
+    "cookware", "utensils", "plate", "cup", "glass", "bowl", "knife", "spoon", "fork", "tray", "basket"
+  ],
+  "Sports": [
+    "football", "soccer", "basketball", "tennis", "badminton", "cricket", "hockey", "golf",
+    "table tennis", "volleyball", "rugby", "swimming", "cycling", "running shoes", "helmet",
+    "gloves", "bat", "ball", "net", "goal", "court", "stadium", "track", "bike", "skates",
+    "skateboard", "paddle", "canoe", "kayak", "rowing", "gym equipment", "dumbbells", "barbell",
+    "mat", "towel", "jersey", "shorts", "socks", "shoes", "whistle", "stopwatch", "water bottle",
+    "goggles", "cap", "training kit", "sports bag", "fitness tracker", "heart rate monitor", "band"
+  ],
+  "Pets": [
+    "dog", "cat", "fish", "bird", "hamster", "rabbit", "turtle", "guinea pig", "parrot", "canary",
+    "cage", "leash", "collar", "food", "treats", "toys", "bowl", "water bottle", "bed", "litter",
+    "litter box", "brush", "comb", "shampoo", "medicine", "vitamins", "vaccination", "crate", "carrier",
+    "playpen", "scratch post", "perch", "swing", "bell", "chew toy", "rope toy", "ball", "ring toy",
+    "tunnel", "hammock", "exercise wheel", "wheel", "aquarium", "filter", "heater", "thermometer", "net",
+    "gravel", "plants", "decoration"
+  ],
+  "Vehicles": [
+    "car", "bike", "motorcycle", "scooter", "truck", "van", "bus", "bicycle", "helmet", "gloves",
+    "jacket", "boots", "tire", "wheel", "engine", "battery", "brake", "oil", "gear", "mirror",
+    "seat", "belt", "lights", "indicator", "horn", "handlebar", "pedal", "chain", "kickstand",
+    "fuel", "tank", "air filter", "spark plug", "clutch", "radiator", "fan belt", "windshield",
+    "wiper", "dashboard", "seat cover", "cover", "carpet", "floor mat", "roof rack", "luggage carrier",
+    "sunglasses", "parking sensor", "GPS", "camera"
+  ],
+  "Office": [
+    "chair", "desk", "computer", "printer", "scanner", "stapler", "notebook", "pen", "pencil",
+    "marker", "highlighter", "folder", "binder", "paper", "envelope", "calendar", "planner",
+    "whiteboard", "chalk", "board", "lamp", "light", "cable", "mouse", "keyboard", "monitor",
+    "router", "modem", "phone", "headset", "speaker", "projector", "screen", "sticky notes",
+    "tape", "glue", "clip", "rubber band", "scanner paper", "storage box", "cabinet", "drawer",
+    "file", "document", "badge", "printer ink", "software", "hard drive"
+  ],
+  "Beauty": [
+    "lipstick", "lip balm", "foundation", "powder", "blush", "eyeliner", "mascara", "nail polish",
+    "perfume", "deodorant", "cream", "lotion", "shampoo", "conditioner", "soap", "body wash",
+    "face wash", "toner", "serum", "eye cream", "moisturizer", "sunscreen", "makeup remover",
+    "hair oil", "hair mask", "hair dryer", "straightener", "curler", "brush", "comb", "mirror",
+    "tweezers", "nail file", "cuticle", "scissors", "pumice", "exfoliator", "bath sponge",
+    "body scrub", "hand cream", "foot cream", "shaving cream", "razor", "aftershave", "mask",
+    "sheet mask", "cotton pad", "cotton ball", "spray"
+  ],
+  "Toys": [
+    "lego", "doll", "action figure", "car toy", "train set", "puzzle", "board game", "card game",
+    "ball", "soft toy", "stuffed animal", "blocks", "building set", "play-doh", "craft kit",
+    "painting kit", "crayons", "colored pencils", "markers", "chalk", "slime", "toy gun", "yo-yo",
+    "kite", "frisbee", "balloon", "water gun", "spinning top", "puppet", "marbles", "truck toy",
+    "bike toy", "scooter toy", "rocket", "spaceship", "figurine", "train track", "track set",
+    "ride-on", "board", "game console", "remote car", "helicopter toy", "drone toy", "tablet toy",
+    "musical instrument toy", "xylophone", "keyboard toy", "piano toy"
+  ],
+  "Food": [
+    "burger", "pizza", "pasta", "sandwich", "noodles", "dumplings", "soup", "curry", "steak", "chicken",
+    "fish", "seafood", "rice dish", "taco", "burrito", "wrap", "salad", "fries", "omelette", "pancake",
+    "waffle", "sausage", "hotdog", "kebab", "sushi", "lasagna", "risotto", "quiche", "pie", "casserole",
+    "stir fry", "gratin", "fondue", "toast", "croissant", "bagel", "muffin", "cake", "cookie", "brownie",
+    "donut", "ice cream", "smoothie", "pudding", "chili", "paella", "bruschetta", "tart", "casserole", "samosa"
+  ],
+  "Drinks": [
+    "water", "juice", "soda", "coffee", "tea", "milk", "smoothie", "milkshake", "lemonade", "cocktail",
+    "mocktail", "wine", "beer", "whiskey", "vodka", "rum", "gin", "champagne", "cider", "mojito",
+    "latte", "espresso", "cappuccino", "chai", "green tea", "herbal tea", "hot chocolate", "energy drink",
+    "sports drink", "kombucha", "iced tea", "iced coffee", "americano", "frappuccino", "chai latte",
+    "matcha", "protein shake", "watermelon juice", "orange juice", "apple juice", "grape juice",
+    "cranberry juice", "pineapple juice", "tomato juice", "carrot juice", "beetroot juice", "mint drink",
+    "coconut water", "ginger ale", "lemon soda", "cola"
+  ],
+  "Shopping": [
+    "myntra", "flipkart", "amazon", "snapdeal", "ajio", "shopclues", "ebay", "tatacliq",
+    "paytm mall", "shopee", "mall", "store", "retail", "market", "cart", "sale", "discount",
+    "offer", "coupon", "voucher", "checkout", "delivery", "cashback", "deal", "shopping bag",
+    "wishlist", "fashion", "clothing", "electronics", "mobile", "laptop", "appliance", "home decor",
+    "furniture", "books", "gifts", "toys", "sports gear", "footwear", "accessories", "cosmetics",
+    "makeup", "skincare", "jewelry", "watch", "bags", "sunglasses", "stationery", "gadgets"
+  ],
+  "Travel": [
+    "uber", "ola", "bus", "train", "flight", "cab", "taxi", "metro", "ticket", "hotel",
+    "hostel", "resort", "cruise", "ferry", "car rental", "bike rental", "luggage", "passport",
+    "visa", "insurance", "tour guide", "map", "backpack", "suitcase", "tent", "sleeping bag",
+    "camping mat", "snacks", "water bottle", "sunglasses", "camera", "tripod", "binoculars",
+    "compass", "hat", "sunblock", "jacket", "hiking boots", "flip flops", "swimwear", "towel",
+    "charger", "powerbank", "adapter", "first aid kit"
+  ],
+  "Other": []
+}
